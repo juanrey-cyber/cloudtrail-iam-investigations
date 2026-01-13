@@ -28,4 +28,11 @@ Attaching IAM policies to users represents a privilege escalation event that mus
 - If misused, this action may grant users permissions beyond their intended role.
 - Severity: Medium
 
+## Mitigation and Conclusion
+- IAM policy attachments should be restricted and audited.
+- Root account usage for permission changes should be minimized.
+- CloudTrail provides visibility into privilege escalation attempts.
+- The observed action was legitimate and part of account setup.
+
+
 
