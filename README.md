@@ -10,3 +10,10 @@ Attaching IAM policies to users represents a privilege escalation event that mus
 - userIdentity
 - requestParameters.userName
 - requestParameters.policyArn
+
+## Evidence
+- EventName: AttachUserPolicy
+- EventSource: iam.amazonaws.com
+- Actor: Root account
+- Target user: juan-admin
+- Policy attached: IAMUserChangePassword
