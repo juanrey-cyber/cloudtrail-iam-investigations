@@ -23,3 +23,9 @@ Attaching IAM policies to users represents a privilege escalation event that mus
 - The action was initiated by the root account.
 - Attaching a policy modifies the effective permissions of the target user.
 
+## Risk Assessment
+- Attaching IAM policies can result in privilege escalation.
+- If misused, this action may grant users permissions beyond their intended role.
+- Severity: Medium
+
+
