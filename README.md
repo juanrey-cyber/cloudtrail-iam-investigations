@@ -17,3 +17,9 @@ Attaching IAM policies to users represents a privilege escalation event that mus
 - Actor: Root account
 - Target user: juan-admin
 - Policy attached: IAMUserChangePassword
+
+## Analysis
+- An IAM policy attachment action was detected via CloudTrail.
+- The action was initiated by the root account.
+- Attaching a policy modifies the effective permissions of the target user.
+
