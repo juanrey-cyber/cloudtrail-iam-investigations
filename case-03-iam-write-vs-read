@@ -1,1 +1,15 @@
+{
+  "eventName": "AttachUserPolicy",
+  "eventSource": "iam.amazonaws.com",
+  "awsRegion": "us-east-1",
+  "userIdentity": {
+    "type": "Root"
+  },
+  "requestParameters": {
+    "userName": "juan-admin",
+    "policyArn": "arn:aws:iam::aws:policy/IAMReadOnlyAccess"
+  },
+  "readOnly": false,
+  "managementEvent": true
+}
 
